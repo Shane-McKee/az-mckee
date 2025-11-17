@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{ --bg: theme(colors.lightgray); --ink: theme(colors.ink); }
+html, body { height: 100%; }
+body { @apply bg-[var(--bg)] text-[color:var(--ink)] leading-relaxed; }
+.container { @apply w-[min(1100px,92%)] mx-auto; }
+.btn { @apply inline-block rounded-xl px-4 py-2 font-semibold shadow-soft transition-transform border; }
+.btn-primary { @apply bg-charcoal text-white border-charcoal hover:-translate-y-0.5; }
+.btn-alt { @apply bg-white text-charcoal border-graphite hover:-translate-y-0.5; }
+.hero-fullbleed { position: relative; width: 100vw; margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); min-height: 56vh; display: grid; place-items: center; overflow: hidden; }
+.hero-media { position: absolute; inset: 0; background-position: center; background-size: cover; transform: scale(1.02); }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(31,35,40,.55), rgba(31,35,40,.25)); mix-blend-mode: multiply; }
+.hero-content { position: relative; z-index: 1; }
+.eyebrow { @apply uppercase tracking-[.12em] text-sm font-semibold text-white/90; }
+.grid-3 { @apply grid gap-4 grid-cols-1 md:grid-cols-3; }
