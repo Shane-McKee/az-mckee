@@ -7,7 +7,7 @@
     "beds": 4,
     "baths": 3.5,
     "sqft": 3250,
-    "image": "/images/paradise-valley-modern.jpg",
+    "image": "/images/joyhouse.jpg",
     "address": {
       "street": "-",
       "city": "Paradise Valley",
@@ -24,7 +24,7 @@
     "beds": 3,
     "baths": 3,
     "sqft": 2875,
-    "image": "/images/north-scottsdale-hillside.jpg",
+    "image": "/images/jacksonhouse.jpg",
     "address": {
       "street": "-",
       "city": "Scottsdale",
@@ -41,7 +41,7 @@
     "beds": 3,
     "baths": 2,
     "sqft": 1920,
-    "image": "/images/vista-verde-phoenix.jpg",
+    "image": "/images/proformance1house.jpg",
     "address": {
       "street": "456 W Thunderhead Dr",
       "city": "Phoenix",
@@ -58,7 +58,7 @@
     "beds": 4,
     "baths": 2.5,
     "sqft": 2140,
-    "image": "/images/litchfield-park-lakeside.jpg",
+    "image": "/images/proformance2house.jpg",
     "address": {
       "street": "789 N Fairway Dr",
       "city": "Litchfield Park",
@@ -75,7 +75,7 @@
     "beds": 4,
     "baths": 3,
     "sqft": 2360,
-    "image": "/images/desert-oasis-scottsdale.jpg",
+    "image": "/images/proformance3house.jpg",
     "address": {
       "street": "123 E Camelback Rd",
       "city": "Scottsdale",
@@ -92,7 +92,7 @@
     "beds": 3,
     "baths": 2,
     "sqft": 1850,
-    "image": "/images/phoenix-midcentury.jpg",
+    "image": "/images/proformance4house.jpg",
     "address": {
       "street": "2001 E Palm Ln",
       "city": "Phoenix",
@@ -109,7 +109,7 @@
     "beds": 4,
     "baths": 3.5,
     "sqft": 3250,
-    "image": "/images/paradise-valley-modern.jpg",
+    "image": "/images/proformance5house.jpg",
     "address": {
       "street": "-",
       "city": "Paradise Valley",

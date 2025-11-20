@@ -10,7 +10,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-gray600">
       <div className="container flex items-center justify-between py-3">
         <Link href="/" className="flex items-center gap-2 font-extrabold tracking-wide text-charcoal">
-          <span className="inline-block size-7 rounded-md bg-charcoal"></span>
+          <span className="inline-block size-7 rounded-md bg-charcoal"><img src="/images/icon.jpg" /></span>
           <span>AZ McKee Realty</span>
         </Link>
         <nav aria-label="Primary">
