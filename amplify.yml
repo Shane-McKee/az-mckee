@@ -1,0 +1,16 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci || npm i
+    build:
+      commands:
+        - npm run build        # → generates /out
+  artifacts:
+    baseDirectory: out        # ← VERY important for static export
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*

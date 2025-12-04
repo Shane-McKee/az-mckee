@@ -1,121 +1,121 @@
 [
   {
-    "slug": "paradise-valley-modern",
-    "title": "Paradise Valley Desert Modern",
+    "slug": "litchfield-park-gem",
+    "title": "Litchfield Park Gem",
     "status": "For Sale",
-    "price": 1850000,
+    "price": 1400000,
     "beds": 4,
-    "baths": 3.5,
-    "sqft": 3250,
+    "baths": 3,
+    "sqft": 3935,
     "image": "/images/joyhouse.jpg",
     "address": {
       "street": "-",
-      "city": "Paradise Valley",
-      "state": "AZ",
-      "zip": "85253"
-    },
-    "description": "Clean lines, mountain views, and indoor-outdoor living."
-  },
-  {
-    "slug": "north-scottsdale-hillside",
-    "title": "North Scottsdale Hillside Modern",
-    "status": "For Sale",
-    "price": 1425000,
-    "beds": 3,
-    "baths": 3,
-    "sqft": 2875,
-    "image": "/images/jacksonhouse.jpg",
-    "address": {
-      "street": "-",
-      "city": "Scottsdale",
-      "state": "AZ",
-      "zip": "85262"
-    },
-    "description": "Hillside privacy with skyline sunsets."
-  },
-  {
-    "slug": "vista-verde-phoenix",
-    "title": "Vista Verde Ranch-Style Retreat",
-    "status": "For Sale",
-    "price": 649000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1920,
-    "image": "/images/proformance1house.jpg",
-    "address": {
-      "street": "456 W Thunderhead Dr",
-      "city": "Phoenix",
-      "state": "AZ",
-      "zip": "85018"
-    },
-    "description": "Sunlit rooms, mature desert landscaping, and a chef's kitchen near top trailheads."
-  },
-  {
-    "slug": "litchfield-park-lakeside",
-    "title": "Litchfield Park Lakeside Charmer",
-    "status": "Under Contract",
-    "price": 589000,
-    "beds": 4,
-    "baths": 2.5,
-    "sqft": 2140,
-    "image": "/images/proformance2house.jpg",
-    "address": {
-      "street": "789 N Fairway Dr",
       "city": "Litchfield Park",
       "state": "AZ",
       "zip": "85340"
     },
-    "description": "Tranquil water views, thoughtful updates, entertainer's layout."
+    "description": "A rare opportunity in the heart of Litchfield Park."
   },
   {
-    "slug": "desert-oasis-scottsdale",
-    "title": "Desert Oasis in Old Town Scottsdale",
+    "slug": "beutiful-townhouse-opportunity",
+    "title": "Beautiful Townhouse Opportunity",
     "status": "For Sale",
-    "price": 825000,
-    "beds": 4,
-    "baths": 3,
-    "sqft": 2360,
-    "image": "/images/proformance3house.jpg",
-    "address": {
-      "street": "123 E Camelback Rd",
-      "city": "Scottsdale",
-      "state": "AZ",
-      "zip": "85251"
-    },
-    "description": "Modern southwestern architecture with indoor-outdoor flow and golden-hour patio."
-  },
-  {
-    "slug": "phoenix-midcentury",
-    "title": "Phoenix Mid-Century Gem",
-    "status": "For Sale",
-    "price": 715000,
-    "beds": 3,
+    "price": 339000,
+    "beds": 2,
     "baths": 2,
-    "sqft": 1850,
-    "image": "/images/proformance4house.jpg",
+    "sqft": 918,
+    "image": "/images/jacksonhouse.jpg",
     "address": {
-      "street": "2001 E Palm Ln",
+      "street": "-",
+      "city": "Chandler",
+      "state": "AZ",
+      "zip": "85225"
+    },
+    "description": "Great townhouse."
+  },
+  {
+    "slug": "limited-phoenix-opportunity",
+    "title": "Limited Phoenix Opportunity",
+    "status": "For Sale",
+    "price": 259970,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1227,
+    "image": "/images/proformance1house.jpg",
+    "address": {
+      "street": "8186 W Colcord Canyon Rd",
       "city": "Phoenix",
       "state": "AZ",
-      "zip": "85006"
+      "zip": "85043"
     },
-    "description": "Vaulted ceilings, clerestory light, and a pool-ready backyard."
+    "description": "Located in a beutifully maintained community north of the I-10."
   },
   {
-    "slug": "paradise-valley-modern-2",
-    "title": "Paradise Valley Desert Modern",
+    "slug": "pretty-avondale-home",
+    "title": "Pretty Avondale Home",
     "status": "For Sale",
-    "price": 1850000,
+    "price": 425000,
+    "beds": 3,
+    "baths": 1.75,
+    "sqft": 1566,
+    "image": "/images/proformance2house.jpg",
+    "address": {
+      "street": "12505 W Adams St",
+      "city": "Avondale",
+      "state": "AZ",
+      "zip": "85323"
+    },
+    "description": "Move in ready. New tile floor thoughout house. Fresh new paint inside and out."
+  },
+  {
+    "slug": "tolleson-charmer",
+    "title": "Tolleson Charmer",
+    "status": "For Sale",
+    "price": 370000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1232,
+    "image": "/images/proformance3house.jpg",
+    "address": {
+      "street": "4028 S 111th Ave",
+      "city": "Tolleson",
+      "state": "AZ",
+      "zip": "85353"
+    },
+    "description": "Stunning new home with spacious floor plan. Perfect for a first time home buyer."
+  },
+  {
+    "slug": "a-perfect-surprise",
+    "title": "A Perfect Surprise",
+    "status": "For Sale",
+    "price": 574999,
+    "beds": 5,
+    "baths": 3,
+    "sqft": 2206,
+    "image": "/images/proformance4house.jpg",
+    "address": {
+      "street": "11548 N 1088th Ln",
+      "city": "Surprise",
+      "state": "AZ",
+      "zip": "85388"
+    },
+    "description": "Looking for an amazing spacious and well taken care of home. You have found it."
+  },
+  {
+    "slug": "the-buckeye-beauty",
+    "title": "The Buckeye Beauty",
+    "status": "For Sale",
+    "price": 617242,
     "beds": 4,
-    "baths": 3.5,
-    "sqft": 3250,
+    "baths": 4,
+    "sqft": 3181,
     "image": "/images/proformance5house.jpg",
     "address": {
       "street": "-",
-      "city": "Paradise Valley",
+      "city": "Buckeye",
       "state": "AZ",
-      "zip": "85253"
+      "zip": "85326"
     },
-    "description": "Clean lines, mountain views, and indoor-outdoor living."
+    "description": "Imagine a four car garage with a pave driveway and a beautiful shade tree hanging over the driveway."
   }
 ]
