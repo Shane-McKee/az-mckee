@@ -15,7 +15,7 @@ export default function Footer() {
           <a className="btn btn-primary" href="/contact">Book a Consultation</a>
         </div>
       </div>
-      <div className="container text-sm text-muted pb-6">© {new Date().getFullYear()} AZ McKee Realty. All rights reserved.</div>
+      <div className="container text-sm text-muted pb-6">© {new Date().getFullYear()} AZ McKee Realty. All rights reserved. <span><img src="/images/fairMLS.png" width={150}height={200}/></span></div>
     </footer>
   );
 }

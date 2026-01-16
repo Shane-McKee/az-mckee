@@ -1,7 +1,7 @@
 const reviews = [
-  { name: "J. Ramirez", text: "Flawless experience selling our Scottsdale home - pricing strategy and marketing were on point.", rating: 5 },
-  { name: "A. Chen", text: "Fast, clear communication and hyper-local insight. We landed our dream place in PV.", rating: 5 },
-  { name: "D. Walker", text: "Data-driven guidance made every decision easy. Highly recommend AZ McKee Realty.", rating: 5 }
+  { name: "ironeagle2000", text: "Austin was amazing to work with. He quickly found out what I was looking for and helped find the perfect home. The house we found had all the checkmarks I was looking for plus more. Thank you Austin!!", rating: 5 },
+  { name: "zuser20171213131947795", text: "We recently had the pleasure of working with Austin Mckee. He met our very high expectations and was such a lifesaver while making my husband and I feel so at ease throughout the entire home buying process.", rating: 5 },
+  { name: "jacksonfried638", text: "I had a great experience with Austin, easy going, helpful and knowledgeable. Made my first home buying process easy.", rating: 5 }
 ];
 export default function Reviews() {
   return (
