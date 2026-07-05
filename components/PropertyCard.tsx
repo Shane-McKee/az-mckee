@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
+import type { Image as SanityImage } from "sanity";
+import { urlForImage } from "../lib/sanity/image";
 export type Property = {
-  slug: string; title: string; status: string; price: number; beds: number; baths: number; sqft: number; image: string;
+  slug: string; title: string; status: string; price: number; beds: number; baths: number; sqft: number; image: SanityImage;
   address: { street: string; city: string; state: string; zip: string }; description: string;
 };
 const fmt = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
@@ -10,7 +12,7 @@ export default function PropertyCard({ property }: { property: Property }) {
     <article className="bg-white border border-gray600 rounded-2xl overflow-hidden">
       <Link href={`/listing/${property.slug}`} aria-label={`View ${property.title}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={property.image} alt={property.title} className="w-full aspect-[4/3] object-cover" loading="lazy" decoding="async" />
+        <img src={urlForImage(property.image).width(800).height(600).url()} alt={property.title} className="w-full aspect-[4/3] object-cover" loading="lazy" decoding="async" />
       </Link>
       <div className="p-4 space-y-1">
         <Link href={`/listing/${property.slug}`} className="inline-block border border-graphite text-charcoal rounded-full px-2 py-0.5 text-sm">{property.status}</Link>

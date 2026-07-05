@@ -1,8 +1,10 @@
-import listingsData from "../data/listings.json";
-import PropertyCard from "../components/PropertyCard";
+import { client } from "../lib/sanity/client";
+import { listingsQuery } from "../lib/sanity/queries";
+import PropertyCard, { type Property } from "../components/PropertyCard";
 import Reviews from "../components/Reviews";
-export default function HomePage() {
-  const featured = (listingsData as any).slice(0, 6);
+export default async function HomePage() {
+  const listings = await client.fetch<Property[]>(listingsQuery);
+  const featured = listings.slice(0, 6);
   return (<>
     <section className="hero-fullbleed" role="banner" aria-label="AZ McKee Realty">
       <div className="hero-media" style={{ backgroundImage: "url('/images/hero.png')" }} />
@@ -19,7 +21,7 @@ export default function HomePage() {
     </section>
     <section className="container pt-8">
       <h2 className="text-2xl font-bold text-charcoal mb-2">Featured Listings</h2>
-      <div className="grid-3">{featured.map((p: any) => (<PropertyCard key={p.slug} property={p} />))}</div>
+      <div className="grid-3">{featured.map((p) => (<PropertyCard key={p.slug} property={p} />))}</div>
     </section>
     <section className="container grid md:grid-cols-2 gap-4 py-10">
   <div className="bg-white border border-gray600 rounded-2xl p-5">
