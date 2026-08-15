@@ -24,7 +24,7 @@ export default async function ListingPage({ params }: { params: Promise<{ slug: 
 
   return (
     <div>
-      <a href="/listings" className="text-sm text-muted underline underline-offset-4">&larr; Back to all listings</a>
+      <a href="/listings" className="text-sm text-muted underline underline-offset-4 focus-ring rounded-sm">&larr; Back to all listings</a>
       <div className="grid md:grid-cols-2 gap-6 mt-4">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={urlForImage(property.image).width(1000).height(750).url()} alt={property.title} className="w-full rounded-2xl object-cover aspect-[4/3]" />

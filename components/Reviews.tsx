@@ -11,7 +11,8 @@ export default function Reviews() {
         {reviews.map((r, i) => (
           <article key={i} className="bg-white border border-gray600 rounded-2xl p-5">
             <div className="flex items-center gap-2 text-charcoal font-semibold">{r.name}</div>
-            <div className="mt-1 text-sm text-muted">{Array.from({length: r.rating}).map((_,i)=>"★").join("")}</div>
+            <div className="mt-1 text-sm text-muted" aria-hidden="true">{Array.from({length: r.rating}).map((_,i)=>"★").join("")}</div>
+            <span className="sr-only">{r.rating} out of 5 stars</span>
             <p className="mt-2 text-ink/80">{r.text}</p>
           </article>
         ))}
