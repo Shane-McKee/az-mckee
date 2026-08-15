@@ -7,7 +7,8 @@ export default async function ListingsPage() {
   return (
     <div>
       <h1 className="text-3xl font-bold text-charcoal mb-2">All Listings</h1>
-      <p className="text-muted max-w-[60ch] mb-4">A curated selection of homes we love right now. Looking for something specific? <a href="/contact" className="underline underline-offset-4">Tell us your wish list.</a></p>
+      <p className="text-muted max-w-[60ch] mb-4">A curated selection of homes we love right now. Looking for something specific? <a href="/contact" className="underline underline-offset-4 focus-ring rounded-sm">Tell us your wish list.</a></p>
+      <h2 className="sr-only">Listings</h2>
       <div className="grid-3">
         {listings.map((p) => (<PropertyCard key={p.slug} property={p} />))}
       </div>

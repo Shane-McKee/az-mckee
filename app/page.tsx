@@ -6,7 +6,7 @@ export default async function HomePage() {
   const listings = await client.fetch<Property[]>(listingsQuery);
   const featured = listings.slice(0, 6);
   return (<>
-    <section className="hero-fullbleed" role="banner" aria-label="AZ McKee Realty">
+    <section className="hero-fullbleed" aria-label="AZ McKee Realty">
       <div className="hero-media" style={{ backgroundImage: "url('/images/hero.png')" }} />
       <div className="hero-overlay" aria-hidden="true"></div>
       <div className="hero-content container text-white py-14">
@@ -24,6 +24,7 @@ export default async function HomePage() {
       <div className="grid-3">{featured.map((p) => (<PropertyCard key={p.slug} property={p} />))}</div>
     </section>
     <section className="container grid md:grid-cols-2 gap-4 py-10">
+  <h2 className="sr-only">Why buy or sell with us</h2>
   <div className="bg-white border border-gray600 rounded-2xl p-5">
     <h3 className="text-xl font-bold text-charcoal">Buy with confidence</h3>
     <p className="text-muted mt-1">Neighborhood-level insights help us spot value and act decisively.</p>
