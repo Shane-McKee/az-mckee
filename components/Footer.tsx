@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container grid md:grid-cols-2 gap-4 py-6">
         <div>
           <div className="flex items-center gap-2 font-extrabold tracking-wide text-charcoal mb-2">
-            <span className="inline-block size-6 rounded-md bg-charcoal"></span>
+            <span className="inline-block size-6 rounded-md bg-white"><img src="/images/icon.png" alt="" /></span>
             <span>AZ McKee Realty</span>
           </div>
           <p className="max-w-[60ch] text-muted">
